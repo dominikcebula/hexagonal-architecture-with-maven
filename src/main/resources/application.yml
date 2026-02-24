@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: loans
+  liquibase:
+    default-schema: ${app.db.schema}
+  jpa:
+    properties:
+      hibernate:
+        default_schema: ${app.db.schema}
+
+app:
+  db:
+    schema: loans
