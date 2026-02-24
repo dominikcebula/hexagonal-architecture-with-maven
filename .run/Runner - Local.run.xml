@@ -1,0 +1,17 @@
+<component name="ProjectRunConfigurationManager">
+    <configuration default="false" name="Runner - Local" type="SpringBootApplicationConfigurationType"
+                   factoryName="Spring Boot">
+        <option name="ACTIVE_PROFILES" value="local"/>
+        <module name="adapter"/>
+        <option name="SPRING_BOOT_MAIN_CLASS" value="com.dominikcebula.samples.loans.adapter.Runner"/>
+        <extension name="coverage">
+            <pattern>
+                <option name="PATTERN" value="com.dominikcebula.samples.loans.adapter.*"/>
+                <option name="ENABLED" value="true"/>
+            </pattern>
+        </extension>
+        <method v="2">
+            <option name="Make" enabled="true"/>
+        </method>
+    </configuration>
+</component>
